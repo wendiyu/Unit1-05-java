@@ -27,7 +27,7 @@ public class DiceGame {
 		
 		while (win == false) {
 			System.out.println("This is a guessing number game. Enter a number between 1 and 6: ");
-		
+			
 			guess = scanner.nextInt();
 			numberOfTries++;
 			
@@ -36,9 +36,9 @@ public class DiceGame {
 				System.out.println("You Got It! The number was " + userGuess );
 				System.out.println("It took you " + numberOfTries + " tries");
 			}
-      
-			else if ( guess != userGuess) {
-				System.out.println("Invalid number! Try again! ");
+			
+			else if ( guess < userGuess || guess > userGuess ) {
+				System.out.println("Sorry, it is not the right answer. Try again! ");
 			}
 			
 			}
