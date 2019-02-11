@@ -38,7 +38,7 @@ public class DiceGame {
 			}
       
 			else if ( guess != userGuess) {
-				System.out.println("Invaild number! Try again! ");
+				System.out.println("Invalid number! Try again! ");
 			}
 			
 			}
