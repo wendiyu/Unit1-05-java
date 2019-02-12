@@ -28,7 +28,7 @@ public class DiceGame2 {
 		
 		// create a variable that can holds the range from user
 		userRange = userInput.nextInt();
-		System.out.println(" Your range between 1 and " + userRange);
+		System.out.println(" Your range are between 1 and " + userRange);
 		
 		// range cannot be negative
 		if (userRange < 0) {
